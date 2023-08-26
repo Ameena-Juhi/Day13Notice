@@ -1,6 +1,5 @@
-CREATE TABLE persistence.Notice (
-	id INT auto_increment NOT NULL,
+CREATE TABLE persistence.NoticeTable (
 	name varchar(100) NOT NULL,
-	contact varchar(100) NOT NULL,
-	CONSTRAINT Notice_PK PRIMARY KEY (id)
+	notice varchar(100) NOT NULL,
+	contact varchar(100) NOT NULL
 )
